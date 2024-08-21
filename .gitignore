@@ -1,0 +1,24 @@
+# Ignore Python virtual environment
+virt/
+
+# Ignore Python files
+*.pyc
+__pycache__/
+
+# Ignore Django specific files
+*.sqlite3
+*.log
+
+# Ignore Node.js dependencies
+frontend/node_modules/
+
+# Ignore build files
+frontend/build/
+frontend/dist/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
